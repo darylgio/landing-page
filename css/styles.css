@@ -1,0 +1,127 @@
+* {
+    font-family: Roboto;
+}
+
+header {
+    background-color: #1f2937;
+    color: #fff;
+    padding: 18px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+header .logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+header .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header .navbar ul li a {
+    text-decoration: none;
+}
+
+header .navbar ul a:visited {
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 56px 48px;
+}
+
+header .container .hero h3 {
+    font-size: 45px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+header .container .hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+header button {
+    background-color: #3882f6;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: none;
+    border: none;
+}
+
+.random-info {
+    padding: 36px;
+}
+.random-info h3 {
+    display: flex;
+    justify-self: center;
+    font-size: 33px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.random-info .container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 24px 48px;
+    gap: 5px;
+}
+
+.random-info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 75px 200px;
+}
+
+.quote-section .quote {
+    font-size: 30px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-section .author {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+}
+
+.footer {
+    padding: 30px 64px;
+    margin: 100px;
+    border-radius: 12px;
+    display: flex;
+    background-color: #3882f6;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.footer button {
+    background-color: #3882f6;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: none;
+    border: 2px solid #fff;
+}
+
+.footer button:active {
+    box-shadow: none;
+}
